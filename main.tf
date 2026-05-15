@@ -8,6 +8,6 @@ version = "~> 2.5"
 }
 }
 resource "local_file" "demo" {
-filename = "demo.txt"
-content = "Hello Nikhil Mayini"
+filename = "pet.txt"
+content = "Hello Devops Engineer"
 }
