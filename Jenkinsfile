@@ -6,7 +6,7 @@ terraform 'terraform'
 stages {
 stage('Clone Code') {
 steps {
-git branch: 'main',
+git branch: 'master',
 url: 'https://github.com/nmayini/terraform-jenkins.git'
 }
 }
